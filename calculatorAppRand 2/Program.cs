@@ -25,7 +25,7 @@ namespace CalculatorApp
                     Console.WriteLine("Enter 2nd operand");
                     input_2 = Convert.ToInt32(Console.ReadLine());
                     if (operation == 1)
-                   
+                    //call Additon with NUM 1
                     {
                         result = addMethod(input_1, input_2);
                     }
@@ -80,7 +80,7 @@ namespace CalculatorApp
             }
             catch (DivideByZeroException e)
             {
-                Console.WriteLine(e.No Divide By Zero!);
+                Console.WriteLine(e.Message);
                 z = 0;
             }
             return z;
