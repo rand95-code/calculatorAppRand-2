@@ -80,7 +80,7 @@ namespace CalculatorApp
             }
             catch (DivideByZeroException e)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(e.No Divide By Zero!);
                 z = 0;
             }
             return z;
